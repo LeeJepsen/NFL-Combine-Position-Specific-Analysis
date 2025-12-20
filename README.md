@@ -31,8 +31,8 @@ The Workflow:
 -  Size and strength metrics were more informative for lineman and linebackers
 -  Overall, Combine metrics explained only a portion of elite outcomes, showing physical ability context but reinforces the importance of contextual evaluation
 
-➡️ Detailed results by position, including metric-level findings, are available in
-[results/position_results.md](results/position_results.md).
+➡️ Detailed position-specific findings are available in
+[results/PositionResults.md](results/position_results.md).
 
 
 ## Visual Summary
