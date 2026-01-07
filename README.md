@@ -4,6 +4,7 @@
 ## Overview
 The NFL Combine plays a central role in player evaluation, and its usefulness varies widely by position.  Rather than asking whether Combine testing predicts successful athletes in general, this project examines a more specific question.
 - Do NFL Combine metrics meaningfully differentiate higher level players within their position group?
+
 To explore this, NFL Combine data from 2000-2023 were linked with Pro Bowl selections as a proxy for sustained, high level NFL performance.  By comparing Pro Bowl and non-Pro Bowl players within the same position groups, this analysis evaluates which athletic traits provide actionable signal, and where Combine testing may fall short.  This project is exploratory and supports decision making, not a draft prediction model.  Quarterbacks (for most of this analysis), Kickers, Punters, and Fullbacks were excluded because of the lack of athletes and participation in the NFL Combine.
 
 ## Why This Matters
@@ -26,6 +27,7 @@ NFL Combine Data (2000-2023) from Pro Football Reference
 
 Pro Bowl Selections (Career Indicators)
 -  Binary label indication whether a player earned at least one Pro Bowl selection
+
 Players were grouped by position to account for distinct physical role demands across the NFL
 
 ## Analytical Approach
@@ -44,17 +46,17 @@ The analysis was done in R, revolving around each position:
 
 ## Key Findings
 
-<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/0fa18976-0dc5-4ed7-bdd3-a1b3828c0507" />
+<img width="600" height="1200" alt="image" src="https://github.com/user-attachments/assets/32d6e113-5f80-4892-911d-e17ce752adec" />
+
 
 
 ### Overall Contexts
 - Across all Combine participants (2000-2023), the empirical probability of earning a Pro Bowl selection was ~ 8.5%
 - Roughly 1 in 12 Athletes that participated in the NFL Combine reached Pro Bowl status
 
+### Position Specific
 <img width="550" height="350" alt="image" src="https://github.com/user-attachments/assets/92900159-dfab-4a28-a483-6cf87a4e65ff" />
 
-
-### Position Specific
 -	**Defensive Backs (DB)**: Clear separation across speed, agility, jumping, and body weight, suggesting movement efficiency paired with sufficient mass.
 -	**Offensive Linemen (OL)**: Separation across speed, power, and movement quality, with performance, not size alone, distinguishing higher-level players.
 -	**Defensive Line (DL)**: Limited separation overall; bench press emerged as the primary differentiator, emphasizing upper-body strength.
